@@ -1,5 +1,5 @@
- const Sequelize = require('sequelize');
-module.exports = new Sequelize('loginboilerplate' , 'postgres' , 'admin123',{
+const Sequelize = require('sequelize');
+module.exports = new Sequelize('DB name' , 'postgres' , 'Password',{
     host: 'localhost',
     dialect: 'postgres',
     define: {
