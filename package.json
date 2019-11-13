@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-authentication-boilerplate",
+  "version": "1.0.0",
+  "description": "this is a user login and registration boilerplate ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgmohale/nodejs-authentication-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "postgres",
+    "passport-authentication"
+  ],
+  "author": "Lucas Mohale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgmohale/nodejs-authentication-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lgmohale/nodejs-authentication-boilerplate#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  }
+}
